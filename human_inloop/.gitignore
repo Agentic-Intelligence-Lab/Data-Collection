@@ -1,0 +1,36 @@
+# Local outputs and robot data
+outputs/
+data/
+*.log
+*.mp4
+*.avi
+*.mkv
+*.bag
+
+# Large external dependencies/checkpoints
+external/openpi/
+external/openpi-finetune/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.local
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.pkl
+*.npy
+*.npz
+*.parquet
+wandb/
+runs/
+.cache/

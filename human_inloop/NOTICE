@@ -1,0 +1,13 @@
+Interactive Piper Correction Collection
+
+This project contains a DAgger / interactive correction data-collection workflow
+adapted from local robotics code derived from the open-source Evo-RL project:
+
+  https://github.com/MINT-SJTU/Evo-RL
+
+Evo-RL is distributed under the Apache License 2.0. Keep this notice,
+LICENSE, and THIRD_PARTY_NOTICES.md with redistributed versions.
+
+The bundled LeRobot-Piper runtime under vendor/lerobot_piper/lerobot retains
+its upstream license notices. OpenPI source and policy checkpoints are external
+artifacts and are not included in this repository.

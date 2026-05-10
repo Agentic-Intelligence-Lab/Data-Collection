@@ -1,0 +1,19 @@
+dataset:
+  name: place_plate_20260507
+  root: data/place_plate_20260507
+  task: pick up the green plate and put it in the dish rack
+  fps: 30
+  num_episodes: 500
+  episode_time_s: 90
+  resume: true
+  validate_after_record: true
+
+camera_mapping: camera_mapping.yaml
+robot_config: robot_config.yaml
+
+runtime:
+  can_settle_time_s: 5
+  expected_can_interfaces:
+    - can0
+    - can1
+

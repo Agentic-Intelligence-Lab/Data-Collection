@@ -1,0 +1,37 @@
+robot:
+  inference_time: false
+  passive_recording: true
+  leader_arms: {}
+  follower_arms:
+    left:
+      can_name: can1
+      motors:
+        joint_1: [1, agilex_piper]
+        joint_2: [2, agilex_piper]
+        joint_3: [3, agilex_piper]
+        joint_4: [4, agilex_piper]
+        joint_5: [5, agilex_piper]
+        joint_6: [6, agilex_piper]
+        gripper: [7, agilex_piper]
+    right:
+      can_name: can0
+      motors:
+        joint_1: [1, agilex_piper]
+        joint_2: [2, agilex_piper]
+        joint_3: [3, agilex_piper]
+        joint_4: [4, agilex_piper]
+        joint_5: [5, agilex_piper]
+        joint_6: [6, agilex_piper]
+        gripper: [7, agilex_piper]
+  follower_arm:
+    main:
+      can_name: can0
+      motors:
+        joint_1: [1, agilex_piper]
+        joint_2: [2, agilex_piper]
+        joint_3: [3, agilex_piper]
+        joint_4: [4, agilex_piper]
+        joint_5: [5, agilex_piper]
+        joint_6: [6, agilex_piper]
+        gripper: [7, agilex_piper]
+

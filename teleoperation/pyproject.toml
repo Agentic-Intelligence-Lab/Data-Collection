@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piper-teleoperation-collector"
+version = "0.1.0"
+description = "Standalone Piper teleoperation data collection with GUI, RealSense cameras, and LeRobot-compatible datasets."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0",
+  "numpy>=1.26",
+  "Pillow>=10.0",
+  "torch>=2.2",
+  "torchvision>=0.21",
+  "datasets>=2.19",
+  "huggingface-hub>=0.27",
+  "jsonlines>=4.0",
+  "packaging>=24.0",
+  "pyarrow>=15.0",
+  "av>=12.0",
+  "pyrealsense2>=2.55; sys_platform != 'darwin'",
+  "piper-sdk>=0.6.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"teleoperation.dataset" = ["card_template.md"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+

@@ -1,0 +1,34 @@
+cameras:
+  head:
+    type: intelrealsense
+    serial_number: 254622073267
+    fps: 30
+    width: 640
+    height: 480
+    force_hardware_reset: false
+    rotation: null
+  left_wrist:
+    type: intelrealsense
+    serial_number: 244222071617
+    fps: 30
+    width: 640
+    height: 480
+    force_hardware_reset: false
+    rotation: null
+  right_wrist:
+    type: intelrealsense
+    serial_number: 317622070857
+    fps: 30
+    width: 640
+    height: 480
+    force_hardware_reset: false
+    rotation: null
+  front_view:
+    type: intelrealsense
+    serial_number: 254622079402
+    fps: 30
+    width: 640
+    height: 480
+    force_hardware_reset: false
+    rotation: null
+
