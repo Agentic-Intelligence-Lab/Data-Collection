@@ -99,7 +99,7 @@ This module is Coming soon.
 Clone the repository and enter the project root:
 
 ```bash
-git clone https://github.com/Agentic-Intelligence-Lab/data_collection.git
+git clone https://github.com/Agentic-Intelligence-Lab/Data-Collection.git
 cd data_collection
 ```
 
